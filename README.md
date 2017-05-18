@@ -31,4 +31,22 @@
 * 刘昌龄 (开发工程师) 
     * Email: <995477826@qq.com>
     * Github : [https://github.com/liuchangling5](https://github.com/liuchangling5)
-	
+
+### hostedreadmine
+
+http://www.hostedredmine.com/projects/android_ditietong
+
+### 源码
+
+https://github.com/xingyanna/MetroBao
+
+### 界面原型
+
+https://modao.cc/app/rpaybQBRCsBfjbffZ6oxQDTCOXpDLPr
+
+### UI详细设计
+
+https://modao.cc/app/hKeRVX4vRgOj93XQ8kQXA6MF7FVmxp3
+
+
+
