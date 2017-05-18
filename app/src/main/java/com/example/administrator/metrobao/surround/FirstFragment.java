@@ -14,6 +14,8 @@ import com.example.administrator.metrobao.R;
  */
 
 public class FirstFragment extends Fragment {
+    @Nullable
+    @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         container = (ViewGroup) inflater.inflate(R.layout.first_fragment, null);
         return container;
