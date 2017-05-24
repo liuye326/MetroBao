@@ -24,7 +24,7 @@
         <RadioButton
             android:id="@+id/radio_masg"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:button="@null"
             android:gravity="center_horizontal"
@@ -34,7 +34,7 @@
         <RadioButton
             android:id="@+id/radio_imag"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:button="@null"
             android:gravity="center_horizontal"
@@ -44,7 +44,7 @@
         <RadioButton
             android:id="@+id/radio_setting"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:button="@null"
             android:gravity="center_horizontal"
