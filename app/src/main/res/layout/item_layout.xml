@@ -9,6 +9,7 @@
         android:id="@+id/route_title"
         android:layout_width="match_parent"
         android:layout_height="44dp"
+<<<<<<< Updated upstream
         android:background="">
         <LinearLayout
             android:id="@+id/title_back"
@@ -105,6 +106,27 @@
             android:layout_height="1dp"
             android:background="#e0e0e0"/>
 
+=======
+        android:background="#c5c5c5">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bussearch_back" />
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="可选路线"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+>>>>>>> Stashed changes
         <ListView
             android:id="@+id/bus_segment_list"
             android:layout_width="match_parent"
@@ -117,6 +139,7 @@
             android:headerDividersEnabled="false"
             android:listSelector="@color/transparent" >
         </ListView>
+<<<<<<< Updated upstream
     </LinearLayout>
     <com.amap.api.maps2d.MapView
         android:id="@+id/route_map"
@@ -125,5 +148,7 @@
         android:layout_below="@id/bus_path"
         android:visibility="gone">
     </com.amap.api.maps2d.MapView>
+=======
+>>>>>>> Stashed changes
 
 </LinearLayout>

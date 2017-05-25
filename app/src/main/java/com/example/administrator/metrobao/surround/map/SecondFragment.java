@@ -1,4 +1,4 @@
-package com.example.administrator.metrobao.surround;
+package com.example.administrator.metrobao.surround.map;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,9 +13,10 @@ import com.example.administrator.metrobao.R;
  * Created by Administrator on 2017/5/17 0017.
  */
 
-public class FirstFragment extends Fragment {
+public class SecondFragment extends Fragment {
+    @Nullable
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        container = (ViewGroup) inflater.inflate(R.layout.first_fragment, null);
+        container = (ViewGroup) inflater.inflate(R.layout.sec_fragment, null);
         return container;
     }
 }

@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.widget.RadioGroup;
 
 import com.example.administrator.metrobao.R;
+import com.example.administrator.metrobao.surround.map.SecondFragment;
+import com.example.administrator.metrobao.surround.search.Search_page;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     private FragmentManager fragment;
     private RadioGroup radioGroup;
     private FragmentTransaction fragmentTransaction;
-    private FirstFragment firstFragment;
+    private Search_page firstFragment;
     private SecondFragment secondFragment;
     private ThirdFragment thirdFragment;
     private ViewPager viewpager;
@@ -34,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
         radioGroup = (RadioGroup) findViewById(R.id.radio_group);
         viewpager = (ViewPager) findViewById(R.id.viewpager);
         //实例化fragment
-        firstFragment = new FirstFragment();
+        firstFragment = new Search_page();
         secondFragment = new SecondFragment();
         thirdFragment = new ThirdFragment();
         list = new ArrayList<>();
