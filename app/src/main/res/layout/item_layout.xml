@@ -4,151 +4,28 @@
     android:layout_height="match_parent"
     android:background="@color/act_background"
     android:orientation="vertical" >
-
     <RelativeLayout
-        android:id="@+id/route_title"
         android:layout_width="match_parent"
-        android:layout_height="44dp"
-<<<<<<< Updated upstream
-        android:background="">
-        <LinearLayout
-            android:id="@+id/title_back"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:background="@color/phone_bg"
-            android:descendantFocusability="beforeDescendants"
-            android:gravity="center_vertical"
-            android:onClick="onBackClick"
-            android:orientation="vertical"
- >
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:clickable="false"
-                android:scaleType="center" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_centerInParent="true"
-            android:gravity="center"
-            android:orientation="vertical" >
-
-            <TextView
-                android:id="@+id/title_center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textColor="@color/black"
-                android:textStyle="bold" />
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/title_map"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:background="@color/phone_bg"
-            android:descendantFocusability="beforeDescendants"
-            android:gravity="center_vertical"
-            android:onClick="onMapClick"
-            android:orientation="vertical"
-            android:visibility="gone" >
-
-            <TextView
-                android:id="@+id/map"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="地图"
-                android:textColor="@color/black" />
-        </LinearLayout>
-
-    </RelativeLayout>
-    <LinearLayout
-        android:id="@+id/bus_path"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:gravity="center_vertical"
-            android:padding="5dp"
-            android:orientation="vertical" >
-            <TextView
-                android:id="@+id/firstline"
-                android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:layout_marginLeft="12dp"
-                android:singleLine="true"
-                android:textColor="#333333"
-                android:textSize="16sp" />
-
-            <TextView
-                android:id="@+id/secondline"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/firstline"
-                android:layout_marginLeft="12dp"
-                android:gravity="right"
-                android:singleLine="true"
-                android:textColor="#999999"
-                android:textSize="13sp"
-                android:visibility="gone" />
-        </LinearLayout>
-
+        android:layout_height="wrap_content"
+        android:background="@color/gray_lite">
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#e0e0e0"/>
-
-=======
-        android:background="#c5c5c5">
-        <ImageView
-            android:id="@+id/back"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:paddingLeft="15dp"
-            android:layout_centerVertical="true"
-            android:src="@drawable/bussearch_back" />
+            android:layout_height="wrap_content"
+            android:src="@drawable/bussearch_back"
+            android:padding="10dp"
+            android:id="@+id/imageView" />
         <TextView
-            android:id="@+id/search"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="40dp"
             android:text="可选路线"
-            android:textSize="20dp"
-            android:textAlignment="center"
+            android:textSize="30dp"
             android:gravity="center_vertical"
-            android:layout_centerInParent="true"
-            />
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_centerHorizontal="true" />
     </RelativeLayout>
->>>>>>> Stashed changes
-        <ListView
-            android:id="@+id/bus_segment_list"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:cacheColorHint="@color/transparent"
-            android:divider="@color/transparent"
-            android:fadingEdge="none"
-            android:fadingEdgeLength="0dp"
-            android:footerDividersEnabled="false"
-            android:headerDividersEnabled="false"
-            android:listSelector="@color/transparent" >
-        </ListView>
-<<<<<<< Updated upstream
-    </LinearLayout>
-    <com.amap.api.maps2d.MapView
-        android:id="@+id/route_map"
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/bus_path"
-        android:visibility="gone">
-    </com.amap.api.maps2d.MapView>
-=======
->>>>>>> Stashed changes
-
-</LinearLayout>
+        android:id="@+id/MylistView">
+    </ListView>
+    </LinearLayout>
