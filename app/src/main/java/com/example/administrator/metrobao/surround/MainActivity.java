@@ -121,7 +121,6 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
 
         if (id == 0) {
             onPageSelected(0);
-            //3代表”我的京东“所在条目的位置，参考下面的源码即可理解
         }
         super.onResume();
     }
