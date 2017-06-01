@@ -38,7 +38,7 @@
             android:layout_weight="1"
             android:button="@null"
             android:gravity="center_horizontal"
-            android:drawableTop="@drawable/button_background"
+            android:drawableTop="@drawable/button_background2"
             android:text="周边" />
 
         <RadioButton
@@ -48,7 +48,7 @@
             android:layout_weight="1"
             android:button="@null"
             android:gravity="center_horizontal"
-            android:drawableTop="@drawable/button_background"
+            android:drawableTop="@drawable/button_background3"
             android:text="设置" />
     </RadioGroup>
 </RelativeLayout>
