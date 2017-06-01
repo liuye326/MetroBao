@@ -22,6 +22,7 @@ import com.example.administrator.metrobao.R;
 
 /**
  * Created by Administrator on 2017/5/17 0017.
+ *
  */
 
 public class SecondFragment extends Fragment implements LocationSource,AMapLocationListener {
