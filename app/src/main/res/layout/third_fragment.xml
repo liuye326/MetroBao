@@ -40,9 +40,9 @@
                         android:drawableRight="@drawable/jiji"
                         android:drawablePadding="10.0dip"
                         android:gravity="center"
-                        android:text="关于我们"
+                        android:text="制作团队"
                         android:textColor="#ff333333"
-                        android:textSize="16.0sp"
+                        android:textSize="20.0sp"
                         android:id="@+id/about_us"
 
                         />
@@ -66,9 +66,9 @@
                         android:drawableRight="@drawable/jiji"
                         android:drawablePadding="10.0dip"
                         android:gravity="center"
-                        android:text="版本信息"
+                        android:text="设备信息"
                         android:textColor="#ff333333"
-                        android:textSize="16.0sp"
+                        android:textSize="20.0sp"
                         android:id="@+id/type_news"
                         />
                 </TableRow>
@@ -92,9 +92,9 @@
                         android:drawableRight="@drawable/jiji"
                         android:drawablePadding="10.0dip"
                         android:gravity="center"
-                        android:text="检查更新"
+                        android:text="版本更新"
                         android:textColor="#ff333333"
-                        android:textSize="16.0sp"
+                        android:textSize="20.0sp"
                         android:id="@+id/update"
                         />
                 </TableRow>
@@ -117,9 +117,9 @@
                         android:drawableRight="@drawable/jiji"
                         android:drawablePadding="10.0dip"
                         android:gravity="center"
-                        android:text="使用介绍"
+                        android:text="使用教程"
                         android:textColor="#ff333333"
-                        android:textSize="16.0sp"
+                        android:textSize="20.0sp"
                         android:id="@+id/introduce"
                         />
                 </TableRow>
