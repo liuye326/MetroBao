@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.widget.RadioGroup;
 
 import com.example.administrator.metrobao.R;
+import com.example.administrator.metrobao.surround.Search.search_page;
+import com.example.administrator.metrobao.surround.map.SecondFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     private FragmentManager fragment;
     private RadioGroup radioGroup;
     private FragmentTransaction fragmentTransaction;
-    private FirstFragment firstFragment;
+    private search_page search_page;
     private SecondFragment secondFragment;
     private ThirdFragment thirdFragment;
     private ViewPager viewpager;
@@ -34,11 +36,11 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
         radioGroup = (RadioGroup) findViewById(R.id.radio_group);
         viewpager = (ViewPager) findViewById(R.id.viewpager);
         //实例化fragment
-        firstFragment = new FirstFragment();
+        search_page = new search_page();
         secondFragment = new SecondFragment();
         thirdFragment = new ThirdFragment();
         list = new ArrayList<>();
-        list.add(firstFragment);
+        list.add(search_page);
         list.add(secondFragment);
         list.add(thirdFragment);
         myAdpter = new MyAdpter(fragment);
@@ -50,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
                 switch (checkedId) {
                     case R.id.radio_masg:
                         //替换填充view
-//                        fragmentTransaction.replace(R.id.viewpager, firstFragment);
+//                        fragmentTransaction.replace(R.id.viewpager, search_page);
                         viewpager.setCurrentItem(0);
                         break;
                     case R.id.radio_imag:
@@ -111,5 +113,15 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
         public int getCount() {
             return list.size();
         }
+    }
+
+    @Override
+    protected void onResume() {
+        int id = getIntent().getIntExtra("radio_masg", 0);
+
+        if (id == 0) {
+            onPageSelected(0);
+        }
+        super.onResume();
     }
 }
