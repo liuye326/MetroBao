@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_lite">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bussearch_back"
+        android:padding="10dp"
+        android:id="@+id/img" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="路线详悉"
+        android:textSize="30dp"
+        android:gravity="center_vertical"
+        android:layout_alignBottom="@+id/img"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="地图"
+        android:textSize="30dp"
+        android:gravity="center_vertical"
+        android:layout_alignBottom="@+id/img"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

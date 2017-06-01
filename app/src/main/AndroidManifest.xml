@@ -32,6 +32,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".surround.Search.list_page"/>
+        <activity android:name=".surround.Search.Mainpage"/>
     </application>
 
 </manifest>

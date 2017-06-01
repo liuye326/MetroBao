@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Adapter;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.administrator.metrobao.R;
@@ -17,21 +18,21 @@ import java.util.List;
  * Created by Administrator on 2017/5/25.
  */
 public class Adapter_item extends BaseAdapter{
-    private List<Route> list=new ArrayList<>();
+    private ArrayList<Route> route=new ArrayList<>();
     private Context context;
-    public Adapter_item(List<Route> list,Context context) {
+    public Adapter_item(ArrayList<Route> route,Context context) {
         this.context=context;
-        this.list = list;
+        this.route=route;
     }
 
     @Override
     public int getCount() {
-        return list.size();
+        return route.size();
     }
 
     @Override
     public Route getItem(int position) {
-        return list.get(position);
+        return route.get(position);
     }
 
     @Override
@@ -39,12 +40,13 @@ public class Adapter_item extends BaseAdapter{
         return position;
     }
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int i, View view, ViewGroup viewGroup) {
         //加载布局为一个视图
-        View view=LayoutInflater.from(context).inflate(R.layout.item_1,null);
-        Route route=getItem(position);;
+       view=LayoutInflater.from(context).inflate(R.layout.item_1,null);
         TextView tv= (TextView) view.findViewById(R.id.tv);
-        tv.setText(route.getRoute());
+        tv.setText(route.get(i).getRoute());
+        ImageView img=(ImageView) view.findViewById(R.id.img);
+        img.setImageResource(route.get(i).getImg());
         return view;
     }
 }
