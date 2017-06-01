@@ -164,19 +164,4 @@ public class SecondFragment extends Fragment implements LocationSource,AMapLocat
         mapView.onDestroy();
     }
 
-
-    @Override
-    public void onLocationChanged(AMapLocation aMapLocation) {
-
-    }
-
-    @Override
-    public void activate(OnLocationChangedListener onLocationChangedListener) {
-
-    }
-
-    @Override
-    public void deactivate() {
-
-    }
 }
