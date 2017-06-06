@@ -164,5 +164,4 @@ public class SecondFragment extends Fragment implements LocationSource,AMapLocat
         mapView.onDestroy();
     }
 
-
 }
