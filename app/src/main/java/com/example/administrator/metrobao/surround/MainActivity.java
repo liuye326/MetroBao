@@ -11,6 +11,7 @@ import android.widget.RadioGroup;
 
 import com.example.administrator.metrobao.R;
 import com.example.administrator.metrobao.surround.Search.Search_page;
+import com.example.administrator.metrobao.surround.Settings.ThirdFragment;
 import com.example.administrator.metrobao.surround.map.SecondFragment;
 
 import java.util.ArrayList;
@@ -118,9 +119,16 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     @Override
     protected void onResume() {
         int id = getIntent().getIntExtra("radio_masg", 0);
-
-        if (id == 0) {
-            onPageSelected(0);
+        switch (id) {
+            case 0:
+                onPageSelected(0);
+                break;
+            case 1:
+                onPageSelected(1);
+                break;
+            case 2:
+                onPageSelected(2);
+                break;
         }
         super.onResume();
     }
