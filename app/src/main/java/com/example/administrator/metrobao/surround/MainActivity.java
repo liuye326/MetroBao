@@ -1,5 +1,6 @@
 package com.example.administrator.metrobao.surround;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -7,7 +8,9 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.ImageView;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 
 import com.example.administrator.metrobao.R;
 import com.example.administrator.metrobao.surround.Search.Search_page;
@@ -27,6 +30,9 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     private ViewPager viewpager;
     MyAdpter myAdpter;
     private List<Fragment> list;
+    private Context context;
+    private TextView typeNews,upDate,about_us,introduce;
+    private ImageView imgView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +42,9 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
         fragment = getSupportFragmentManager();
         radioGroup = (RadioGroup) findViewById(R.id.radio_group);
         viewpager = (ViewPager) findViewById(R.id.viewpager);
+        //版本信息、检查更新
+        typeNews = (TextView)findViewById(R.id.type_news);
+        upDate = (TextView)findViewById(R.id.update);
         //实例化fragment
         search_page = new Search_page();
         secondFragment = new SecondFragment();
