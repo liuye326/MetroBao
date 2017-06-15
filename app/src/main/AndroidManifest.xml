@@ -33,6 +33,7 @@
         </activity>
         <activity android:name=".surround.Search.list_page"/>
         <activity android:name=".surround.Search.Mainpage"/>
+        <activity android:name=".surround.Settings.Aboutus"/>
     </application>
 
 </manifest>
