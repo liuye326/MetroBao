@@ -14,7 +14,6 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
 
-import com.example.administrator.metrobao.surround.common.AppConstants;
 
 import java.io.FileOutputStream;
 import java.io.InputStream;

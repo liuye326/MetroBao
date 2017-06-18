@@ -1,8 +1,5 @@
 package com.example.administrator.metrobao.surround.util;
 
-
-import com.example.administrator.metrobao.surround.common.SubwayData;
-
 /**
  * 地铁相关工具类
  */

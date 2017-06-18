@@ -3,7 +3,6 @@ package com.example.administrator.metrobao.surround.util;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.example.administrator.metrobao.surround.common.SubwayApplication;
 
 
 /**
