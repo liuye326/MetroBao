@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MetroBao.iml" filepath="$PROJECT_DIR$/MetroBao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MetroBao2.iml" filepath="$PROJECT_DIR$/MetroBao2.iml" />
       <module fileurl="file://$PROJECT_DIR$/MetroBao326.iml" filepath="$PROJECT_DIR$/MetroBao326.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/subwaylib/subwaylib.iml" filepath="$PROJECT_DIR$/subwaylib/subwaylib.iml" />
     </modules>
   </component>
 </project>
