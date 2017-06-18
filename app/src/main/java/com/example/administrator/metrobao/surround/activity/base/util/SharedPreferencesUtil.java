@@ -1,4 +1,4 @@
-package util;
+package com.example.administrator.metrobao.surround.activity.base.util;
 
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
