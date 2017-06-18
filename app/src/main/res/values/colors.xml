@@ -16,5 +16,10 @@
     <color name="colorAccent">#ffffff</color>
     <color name="colorPrimary">#ffffff</color>
     <color name="colorPrimaryDark">#ffffff</color>
+    <color name="search_btn_search_pressed">#FFCC00</color>
+    <color name="search_btn_search_normal">#00CCFF</color>
+    <color name="search_popwin_line_selected">#51AB72</color>
+    <color name="search_popwin_line_nomal">#FFFFFF</color>
+
 
 </resources>

@@ -3,4 +3,16 @@
     <string name="no_result">对不起，没有搜索到相关数据！</string>
     <string name="app_version">版本 V1.0.0</string>
     <string name="check_version">已是最新版本</string>
+    <string name="title_activity_transfer_detail">换乘详情</string>
+    <string name="title_activity_subway_map">地铁图</string>
+
+    <string name="detail_title">%1$s - %2$s</string>
+    <string name="detail_route_index">线路%1$d</string>
+    <string name="detail_timeframe">%1$s发→%2$s到</string>
+    <string name="detail_minute">%1$d分</string>
+    <string name="detail_transfer_times">换乘：%1$d次</string>
+    <string name="detail_price">票价：%1$d元</string>
+    <string name="detail_distance">%1$skm</string>
+    <string name="detail_station_count">%1$d站</string>
+    <string name="detail_tansfer">%1$s・%2$s方向</string>
 </resources>
