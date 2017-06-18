@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
+ *
  * 抽象地铁图基类
  */
 public abstract class BaseSubwayMap implements ISubwayMap {
